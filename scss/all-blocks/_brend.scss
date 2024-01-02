@@ -1,0 +1,66 @@
+.brend {
+    margin-top: 60px;
+}
+
+.brend__header {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Black);
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 591;
+    line-height: 36px; 
+    padding-left: 33px;
+    padding-bottom: 18px;
+}
+
+.brend__list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.brend__item {
+    border-radius: 8px;
+    background: #FCFFFC;
+    width: 188px;
+    height: 100px;
+    text-align: center;
+}
+
+.brend__img {
+    margin-top: 5px;
+    width: 90px;
+    height: 90px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .brend__list {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media only screen and (max-width: 864px) {
+    .brend__list {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width: 448px) {
+    .brend__list {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .brend__header {
+        padding-left: 0px;
+        font-size: 24px;
+    }
+
+    .brend__item {
+        margin-left: 0px;
+    }
+}

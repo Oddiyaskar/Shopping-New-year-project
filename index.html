@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main/main.min.css">
+    <title>Shopping project</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__info ">
+                <img class="header__icon" src="./img/svg/email.svg" alt="email">
+                <p class="header__mail">Aloqa uchun</p>
+                <select class="header__select">
+                    <option value="uz">UZ</option>
+                    <option value="ru">RU</option>
+                    <option value="en">EN</option>
+                </select>
+            </div>
+
+            <div class="header__div">
+                <a class="header__link" href="#">
+                    <img class="header__logo" src="./img/svg/Logo.svg" alt="Logo" width="91" height="35">
+                </a>
+
+                <img class="header__katalog" src="./img/png/Katalog.png" alt="Katalog" width="149" height="46">
+
+                <input class="header__input" type="text" placeholder="Maxsulotlarni izlash">
+
+                <img class="header__like" src="./img/svg/Sevimlilar.svg" alt="Sevimlilar" width="46" height="46">
+
+                <img class="header__shop" src="./img/svg/Korzina.svg" alt="Korzina" width="46" height="46">
+
+                <button class="header__btn">Kirish</button>
+
+                <div class="header__modal ">
+                    <button class="modal__btn">Alixonov Asrorjon</button>
+                    <button class="modal__exit">Chiqish</button> <br>
+                    <img class="header__icons" src="./img/svg/identity.svg" alt="identity" width="24" height="24">
+                    <span class="header__span">Shaxsiy ma'lumotlar</span> <br>
+                    <img class="header__icons" src="./img/svg/library.svg" alt="identity" width="24" height="24">
+                    <span class="header__span">Mening buyurtmalarim</span> <br>
+                    <img class="header__icons" src="./img/svg/favorite.svg" alt="identity" width="24" height="24">
+                    <span class="header__span">Sevimlilar</span> <br>
+                    <img class="header__icons" src="./img/svg/place.svg" alt="identity" width="24" height="24">
+                    <span class="header__span">Manzillar</span>
+                </div>
+
+                <div class="header__kirish">
+                    <button class="kirish__exit">X</button>
+                    <h1 class="header__heading">Hisobga kirish uchun</h1>
+                    <button class="kirish__bos">Kirish</button>
+                    <p class="header__text">Yoki</p>
+                    <button class="kirish__ruyxat">Ro'yxatdan o'tish</button>
+                </div>
+
+                <div class="header__tel ">
+                    <button class="modal__X">X</button>
+                    <h2 class="header__title">Telefon raqam orqali kirish</h2>
+                    <form class="header__form">
+                        <input class="koz__input" type="tel" name="name" placeholder="Telefon raqam"><br>
+                        <input class="koz__input" type="password" name="name" placeholder="Parol"><br>
+                        <button class="koz__btn">Kirish</button>
+                    </form>
+                </div>
+
+                <div class="header__ruyxat">
+                    <button class="modal__X">X</button>
+                    <h2 class="header__title">Parolni tiklash</h2>
+                    <form class="header__form">
+                        <input class="koz__input" type="tel" name="name" placeholder="Telefon raqam"><br>
+                        <input class="koz__input" type="password" name="name" placeholder="Parol"><br>
+                        <input class="koz__input" type="password" name="name" placeholder="Parolni takrorlang">
+            
+                        <button class="koz__btn">Kirish</button>
+                    </form>
+                </div>
+
+                <button class="btn">
+                    <img class="btn__menu " src="./img/svg/menu.svg" alt="menu" width="24" height="24">
+                    <img class="btn__exit " src="./img/svg/Exit.svg" alt="Exit" width="24" height="24">
+                </button>
+            </div>
+        </div>
+    </header>
+
+     <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div id="carouselExampleCaptions" class="hero__carusel carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/phone.jpg" class="carusel__img d-block" alt="phone">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3 class="hero__heading">Smartfonlar</h3>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./img/webp/laptop.webp" class="carusel__icon d-block" alt="laptop">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3 class="hero__title">Notebooklar</h3>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./img/webp/television.webp" class="hero__img d-block" alt="television">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3 class="carusel__heading">Televizorlar</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h4 class="about__heading">Kategoriyalar</h4>
+    
+                <ul class="about__list">
+                    <template id="about__template">
+                        <li class="about__item">
+                            <img class="about__img" src="./img/png/laptop.png" alt="laptop">
+                            <p class="about__text">Kir yuvish mashinalari</p>
+                        </li>
+                    </template>
+                </ul>
+    
+                <div class="about__info">
+                    <p class="about__p">Batafsil</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="shops">
+            <div class="container">
+                <h3 class="shops__heading">Eng ko’p sotilgan</h3>
+
+                <ul class="shops__list">
+                  <template id="shops__template">
+                    <li class="shops__item">
+                      <img class="shops__icon" src="./img/svg/Sevimli.svg" alt="Sevimli" width="32" height="32">
+                      <img class="shops__img" src="./img/png/laptop.png" alt="laptop">
+                      <h4 class="shops__sum">299 000 so’m</h4>
+                      <p class="shops__text">Apple Macbook Pro 13" 2.4 2019 Intel core i5  DDR3 8 GB SSD 256 GB</p>
+                      <p class="shops__buyurtma">1230 ta buyurtma</p>
+                      <button class="shops__btn">Sotib olish</button>
+                      <img class="shops__icons" src="./img/svg/Frame.svg" alt="Frame">
+                    </li>
+                  </template>
+                </ul>
+
+                <div class="shops__info">
+                  <p class="shops__p">Ko’proq ko’rish</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="laptop">
+            <div class="container">
+                <h3 class="laptop__heading">Eng ommabop</h3>
+
+                <ul class="laptop__list">
+                  <template id="laptop__template">
+                    <li class="laptop__item">
+                      <img class="laptop__icon" src="./img/svg/Sevimli.svg" alt="Sevimli" width="32" height="32">
+                      <img class="laptop__img" src="./img/png/laptop.png" alt="laptop">
+                      <h4 class="laptop__sum">299 000 so’m</h4>
+                      <p class="laptop__text">Apple Macbook Pro 13" 2.4 2019 Intel core i5  DDR3 8 GB SSD 256 GB</p>
+                      <p class="laptop__buyurtma">1230 ta buyurtma</p>
+                      <button class="laptop__btn">Sotib olish</button>
+                      <img class="laptop__icons" src="./img/svg/Frame.svg" alt="Frame">
+                    </li>
+                  </template>
+                </ul>
+
+                <div class="laptop__info">
+                  <p class="laptop__p">Ko’proq ko’rish</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="brend"> 
+            <div class="container">
+                <h5 class="brend__header">Brendlar bo’yicha</h5>
+
+                <ul class="brend__list">
+                    <template id="brend__template">
+                        <li class="brend__item">
+                            <img class="brend__img" src="./img/png/image.png" alt="image" width="90" height="90">
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </section>
+
+        <section class="store"> 
+            <div class="container">
+                <h5 class="store__header">Do’konlarimiz</h5>
+
+                <ul class="store__list">
+                    <template id="store__template">
+                        <li class="store__item">
+                            <img class="store__img" src="./img/png/image.png" alt="image" width="90" height="90">
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </section>
+    </main> 
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__div">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <h6 class="footer__heading">Hujjatlar</h6>
+                        <a class="footer__link" href="#">Umumiy shartlar</a><br>
+                        <a class="footer__link" href="#">Ofertalar arxivi</a><br>
+                        <a class="footer__link" href="#">Nizom</a><br>
+                        <a class="footer__link" href="#">Guvohnoma</a>
+                    </li>
+    
+                    <li class="footer__item">
+                        <h6 class="footer__heading">Servis</h6>
+                        <a class="footer__link" href="#">Do’konlar</a><br>
+                        <a class="footer__link" href="#">Biz haqimizda</a><br>
+                        <a class="footer__link" href="#">Hamkorlik uchun</a><br>
+                        <a class="footer__link" href="#">Qaytarish</a><br>
+                        <a class="footer__link" href="#">Promokodlar</a>
+                    </li>
+    
+                    <li class="footer__item">
+                        <h6 class="footer__heading">Mahsulotlar katalogi</h6>
+                        <a class="footer__link" href="#">Katalog 1</a><br>
+                        <a class="footer__link" href="#">Katalog 1</a><br>
+                        <a class="footer__link" href="#">Katalog 2</a><br>
+                        <a class="footer__link" href="#">Katalog 2</a><br>
+                        <a class="footer__link" href="#">Katalog 3</a><br>
+                        <a class="footer__link" href="#">Katalog 3</a>
+                    </li>
+                </ul>
+    
+                <div class="footer__info">
+                    <h6 class="footer__heading">Axbarot xizmati</h6>
+                    <p class="footer__mail">contact.@nextstore.uz</p>
+                    <p class="footer__tel">+998 97 712 96 96  <br>
+                        +998 95 503 09 09</p>
+                    <p class="footer__text">Sag’bon 186, Olmazor tumani, Toshkent, O'zbekiston</p>
+
+                    <ul class="footer__images">
+                        <li class="footer__image">
+                            <img class="footer__img" src="./img/svg/Facebook.svg" alt="Facebook" width="42" height="42">
+                            <img class="footer__img" src="./img/svg/Instagram.svg" alt="Instagram" width="42" height="42">
+                            <img class="footer__img" src="./img/svg/Artboard.svg" alt="Artboard" width="42" height="42">
+                            <img class="footer__img" src="./img/svg/TikTok.svg" alt="TikTok" width="42" height="42">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="footer__line">
+
+            <div class="footer__box">
+                <p class="footer__year">2022  Nextstore.com</p>
+                <p class="footer__texts">Powered by</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <script src="./js/kategoriya.js"></script>
+    <script src="./js/laptop.js"></script>
+    <script src="./js/brend.js"></script>
+    <script src="./js/store.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/api.js"></script>
+</body>
+</html>

@@ -1,0 +1,663 @@
+.header {
+    background-color: var(--bg-White);
+}
+
+.header__info {
+    display: flex;
+    padding-left: 1000px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header__icon {
+    width: 18px;
+    height: 18px;
+}
+
+.header__mail {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Black);
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    padding-bottom: 5x;
+    padding-left: 5px;
+}
+
+.header__select {
+    height: 20px;
+    margin-left: 150px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header__div {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-left: 20px;
+}
+
+.header__katalog{
+    margin-left: 117px;
+}
+
+.header__input {
+    width: 396px;
+    height: 46px;
+    margin-left: 60px;
+    border-radius: 8px;
+    border: 1px solid var(--Stroke-Primary, #E4E7EE);
+    background: var(--Background-White, #FFF);
+    color: var(--Text-secondary, #6C757D);
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    padding-left: 18px;
+}
+
+.header__like {
+    margin-left: 81px;
+}
+
+.header__shop {
+    margin-left: 80px;
+}
+
+.header__btn {
+    margin-left: 65px;
+    border: none;
+    width: 105px;
+    padding: 13px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--Button-gradient-20, linear-gradient(270deg, rgba(77, 94, 246, 0.20) 0%, rgba(246, 77, 77, 0.20) 100%));
+    color:  #101828;
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.header__modal {
+    position: absolute;
+    width: 275px;
+    height: 185px;
+    top: 110px;
+    left: 1065px;
+    border-radius: 10px;
+    background: #FBFBFB;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    display: none;
+}
+
+.blok {
+    display: block;
+}
+
+.modal__btn {
+    border: none;
+    background-color: #FBFBFB;
+    color: var(--color-Black);
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 653;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.modal__exit {
+    border: none;
+    background-color: #FBFBFB;
+    color: #FF0101;
+    text-align: right;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    cursor: pointer;
+}
+
+.header__icons {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.header__span {
+    padding-left: 8px;
+    color: var(--Text-Main, #1E1E1E);
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    padding-top: 14px;
+}
+
+.header__kirish {
+    position: absolute;
+    top: 130px;
+    left: 480px;
+    width: 466px;
+    height: 425px;
+    border-radius: 10px;
+    background: #FBFBFB;
+    display: none;
+}
+
+.kirish {
+    display: block;
+}
+
+.kirish__exit {
+    margin-left: 422px;
+    margin-top: 20px;
+    border: none;
+    background-color: #FBFBFB;
+    cursor: pointer;
+}
+
+.header__heading {
+    margin: 0;
+    padding: 0;
+    color: var(--, #333232);
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 591;
+    line-height: 36px; 
+    padding-left: 100px;
+    padding-top: 35px;
+}
+
+.kirish__bos {
+    color: var(--color-White);
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    border-radius: 8px;
+    background: var(--bg-Blue);
+    border: none;
+    padding: 14px 130px;
+    margin-left: 82px;
+    margin-top: 74px;
+    cursor: pointer;
+}
+
+.header__text {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Grey);
+    padding-left: 220px;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    padding-top: 12px;
+    padding-bottom: 14px;
+}
+
+.kirish__ruyxat {
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    background: var(--Button-Gradient, linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--Button-Gradient, #4D5EF6);
+    padding: 14px 87px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.header__tel {
+    position: absolute;
+    width: 466px;
+    height: 425px;
+    top: 130px;
+    left: 480px;
+    border-radius: 10px;
+    background: #FBFBFB;
+    display: none;
+}
+
+.tel {
+    display: block;
+}
+
+.modal__X {
+    margin-left: 422px;
+    margin-top: 20px;
+    background-color: #FBFBFB;
+    border: none;
+    cursor: pointer;
+}
+
+.header__title {
+    margin: 0;
+    padding: 0;
+    color: #333232;
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 591;
+    line-height: 36px; 
+    padding-top: 35px;
+    padding-bottom: 37px;
+    padding-left: 60px;
+}
+
+.koz__input {
+    color: var(--color-Grey);
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    width: 346px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-bottom: 14px;
+    margin-left: 60px;
+
+}
+
+.password__koz {
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 220px;
+    left: 360px;
+    cursor: pointer;
+}
+
+.password__blok {
+    display: none;
+}
+
+.none {
+    display: block;
+}
+
+.item {
+    display: none;
+}
+
+.koz__btn {
+    color: var(--color-White);
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    width: 346px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: var(--bg-Blue);
+    margin-left: 60px;
+}
+
+.header__ruyxat {
+    position: absolute;
+    width: 466px;
+    height: 425px;
+    top: 130px;
+    left: 480px;
+    border-radius: 10px;
+    background: #FBFBFB;
+    display: none;
+}
+
+.ruyxat {
+    display: block;
+}
+
+.btn {
+    border: none;
+    background-color: #FBFBFB;
+    display: none;
+}
+
+.btn__menu {
+    display: none;
+}
+
+.btn__exit {
+    display: none;
+}
+
+@media only screen and (max-width: 1330px) {
+    .header__info {
+        margin-left: -300px;
+    }
+
+    .header__katalog {
+        margin-left: 50px;
+    }
+
+    .header__input {
+        margin-left: 20px;
+    }
+
+    .header__like {
+        margin-left: 40px;
+    }
+
+    .header__shop {
+        margin-left: 40px;
+    }
+
+    .header__btn {
+        margin-left: 25px;
+    }
+
+    .header__modal {
+        left: 700px;
+    }
+
+    .header__kirish {
+        left: 300px;
+    }
+
+    .header__tel {
+        left: 300px;
+    }
+
+    .header__ruyxat {
+        left: 300px;
+    }
+}
+
+@media only screen and (max-width: 1062px) {
+    .header__icon {
+        margin-left: -600px;
+        display: block;
+    }
+
+    .header__logo {
+        margin-left: 1px;
+    }
+
+    .header__katalog {
+        margin-left: 10px;
+    }
+
+    .header__input {
+        margin-left: 10px;
+        width: 300px;
+    }
+
+    .header__like {
+        margin-left: 10px;
+    }
+
+    .header__shop {
+        margin-left: 10px;
+    }
+
+    .header__btn {
+        margin-left: 10px;
+    }
+
+    .header__modal {
+        left: 500px;
+    }
+
+    .header__kirish {
+        left: 100px;
+    }
+
+    .header__tel {
+        left: 100px;
+    }
+
+    .header__ruyxat {
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .header__info {
+        display: none;
+    }
+
+    .header__katalog {
+        display: none;
+    }
+
+    .header__like {
+        display: none;
+    }
+
+    .header__shop {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .btn__menu {
+        display: block;
+    }
+
+    .menu__exit {
+        display: none;
+    }
+
+    .exit__menu {
+        display: block;
+    }
+
+    .info__blok {
+        display: block;
+        position: absolute;
+        width: 25%;
+        height: 300px;
+        top: 70px;
+        left: -300px;
+        flex-direction: column;
+        background-color: #6C757D;
+    }
+
+    .header__mail {
+        position: absolute;
+        margin-left: -250px;
+        color: #FBFBFB;
+    }
+
+    .header__select {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: -220px;
+        border: 1px solid #FBFBFB;
+    }
+
+    .katalog__blok {
+        display: block;
+        position: absolute;
+        top: 180px;
+        left: 120px;
+    }
+
+    .like__blok {
+        display: block;
+        position: absolute;
+        top: 240px;
+        left: 170px;
+    }
+
+    .shop__blok {
+        display: block;
+        position: absolute;
+        top: 300px;
+        left: 170px;
+    }
+}
+
+@media only screen and (max-width: 776px) {
+    .header__modal {
+        margin-top: -30px;
+        margin-left: -350px;
+    }
+
+    .header__kirish {
+        width: 320px;
+        margin-left: -80px;
+    }
+
+    .header__heading {
+        margin-left: 30px;
+        padding-left: 20px;
+        text-align: center;
+        width: 220px;
+    }
+
+    .kirish__bos {
+        width: 280px;
+        height: 40px;
+        padding: 14px 0px;
+        padding-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .header__text {
+        padding-left: 145px;
+    }
+
+    .kirish__ruyxat {
+        width: 280px;
+        height: 40px;
+        padding: 14px 0px;
+        margin-left: 20px;
+        padding-bottom: 35px;
+    }
+
+    .kirish__exit {
+        margin-left: 280px;
+    }
+
+    .header__tel {
+        width: 320px;
+        margin-left: -80px;
+    }
+
+    .modal__X {
+        margin-left: 280px;
+    }
+
+    .header__title {
+        margin-left: 56px;
+        padding-left: 10px;
+        text-align: center;
+        width: 207px;
+    }
+
+    .koz__input {
+        width: 265px;
+        align-items: center;
+        margin-left: 27px;
+    }
+
+    .koz__btn {
+        width: 270px;
+        margin-left: 26px;
+    }
+
+    .header__ruyxat {
+        width: 320px;
+        margin-left: -80px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .header__logo {
+        margin-left: 40px;
+    }
+
+    .btn {
+        position: absolute;
+        margin-left: -10px;
+    }
+
+    .header__input {
+        width: 250px;
+        margin-top: 110px;
+        margin-left: -140px;
+    }
+
+    .header__btn {
+        margin-left: -90px;
+    }
+
+    .header__info {
+        left: -450px;
+        top: 177px;
+    }
+
+    .header__katalog {
+        top: 277px;
+        left: 30px;
+    }
+
+    .header__like {
+        top: 335px;
+        left: 85px;
+    }
+
+    .header__shop {
+        top: 390px;
+        left: 85px;
+    }
+
+    .header__mail {
+        margin-left: -187px;
+    }
+
+    .header__select {
+        margin-left: -160px;
+    }
+
+    .header__modal {
+        margin-left: -495px;
+        margin-top: 77px;
+    }
+}
